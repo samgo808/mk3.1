@@ -1,0 +1,47 @@
+#!/usr/bin/env bash
+
+declare -a staged_files=()
+declare -a errors=()
+
+while IFS= read -r -d '' path; do
+  staged_files+=("$path")
+done < <(git diff --cached --name-only --diff-filter=ACMR -z)
+
+for path in "${staged_files[@]}"; do
+  filename="${path##*/}"
+
+  if [[ "$path" == raw/* && "$filename" != ".gitkeep" ]]; then
+    errors+=("$path: raw source documents must remain local")
+  fi
+
+  case "$path" in
+    .env|.env.*|*/.env|*/.env.*|*.pem|*.key|*/credentials/*|*/secrets/*)
+      if [[ "$path" != ".env.example" && "$path" != */.env.example ]]; then
+        errors+=("$path: credential-bearing filename is not allowed")
+      fi
+      ;;
+  esac
+
+  if [[ "$path" == wiki/concepts/*.md ||
+        "$path" == wiki/entities/*.md ||
+        "$path" == wiki/sources/*.md ]]; then
+    if ! git show ":$path" | grep -Eq '^publication_status:[[:space:]]*"approved-public"[[:space:]]*$'; then
+      errors+=("$path: missing publication_status: \"approved-public\"")
+    fi
+  fi
+
+  if git show ":$path" | LC_ALL=C grep -Iq .; then
+    if git show ":$path" | LC_ALL=C grep -Eiq '(sk-[A-Za-z0-9_-]{20,}|github_pat_[A-Za-z0-9_]{20,}|gh[pousr]_[A-Za-z0-9]{20,}|xox[baprs]-[A-Za-z0-9-]{20,}|AKIA[A-Z0-9]{16}|-----BEGIN ([A-Z ]+ )?PRIVATE KEY-----|postgres(ql)?://[^[:space:]]+:[^[:space:]@]+@)'; then
+      errors+=("$path: possible credential or private key detected")
+    fi
+  fi
+done
+
+if (( ${#errors[@]} > 0 )); then
+  printf '%s\n' 'Commit blocked by the MK3.1 public-release check:' >&2
+  printf '  - %s\n' "${errors[@]}" >&2
+  printf '%s\n' 'Review the files, correct the problem, and stage them again.' >&2
+  exit 1
+fi
+
+printf '%s\n' 'MK3.1 public-release pre-commit check passed.'

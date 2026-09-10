@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials/
+secrets/
+
+# Editor temporary files
+*.swp
+*.swo
+*~
+
+# Runtime logs
+*.log
+
+# Common generated directories
+node_modules/
+.venv/
+__pycache__/
+
+# Keep raw source documents local
+raw/**
+!raw/**/
+!raw/**/.gitkeep
