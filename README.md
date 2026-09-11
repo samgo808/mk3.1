@@ -310,6 +310,9 @@ MK3.1 should be tested with:
 - [x] `LOGBUILD.md`
 - [x] Local Git repository initialized on `main`
 - [x] MK3.1 vector-table name selected
+- [x] Initial commit created and safety-checked
+- [x] Public GitHub repository created at `https://github.com/samgo808/mk3.1`
+- [x] Local `main` connected and pushed to `origin/main`
 
 ### Configured but not verified
 
@@ -319,8 +322,6 @@ MK3.1 should be tested with:
 
 ### Not yet completed
 
-- [ ] Create and connect the GitHub repository
-- [ ] Make the first Git commit
 - [ ] Migrate selected 2026 sources locally
 - [ ] Add 2027 sources locally
 - [ ] Compile and publicly review the first wiki pages
@@ -345,4 +346,4 @@ Every meaningful change should be recorded in `LOGBUILD.md` with:
 
 ## Current next step
 
-Inspect and stage the public-safe initial project files, review the staged diff, and create the first local Git commit.
+Connect the MK3.1 Wiki to Vector Store Loader to the new GitHub repository, verify its page filters, and confirm that both loading and retrieval use `makoto_wiki_vectors_v31`.

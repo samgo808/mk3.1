@@ -236,6 +236,35 @@ Fact preservation and public-release safety are separate checks. A page can be a
 - Confirmed the hook passes a Bash syntax check.
 - Confirmed the hook runs successfully when no files are staged.
 
+---
+
+## 2026-09-10 — Public GitHub repository launch
+
+**Status:** COMPLETE
+
+### Built
+
+- Created the public GitHub repository at `https://github.com/samgo808/mk3.1`.
+- Connected the local repository using the remote name `origin`.
+- Pushed the local `main` branch to `origin/main`.
+- Configured the local branch to track `origin/main`.
+
+### Initial commit
+
+- Commit: `69066c3`
+- Message: `Initialize Makoto-kun 3.1 architecture`
+- Files: 24
+- Insertions: 2,129
+
+### Verification
+
+- The pre-commit public-release check passed.
+- The push completed successfully.
+- Local and GitHub `main` both resolved to commit `69066c387e6bde31df8f2a3d40cfa60caecdf147`.
+- `git status` reported that the branch was up to date with `origin/main`.
+- The working tree was clean after the push.
+- Only `.gitkeep` placeholders were committed under `raw/`; no raw source documents were uploaded.
+
 ## Current status
 
 ### Complete locally
@@ -251,6 +280,10 @@ Fact preservation and public-release safety are separate checks. A page can be a
 - [x] Publication classification rules
 - [x] Versioned pre-commit guard
 - [x] MK3.1 vector-table name selected
+- [x] Initial local Git commit
+- [x] Public GitHub repository created
+- [x] Local repository connected to `origin`
+- [x] Initial `main` branch pushed and verified
 
 ### Configured but not verified
 
@@ -260,9 +293,6 @@ Fact preservation and public-release safety are separate checks. A page can be a
 
 ### Not yet completed
 
-- [ ] Stage and inspect the initial project files
-- [ ] Create the first local Git commit
-- [ ] Create and connect the GitHub repository
 - [ ] Compile and publicly review the first wiki pages
 - [ ] Load `SOUL.md`, `MIND.md`, and `BODY.md` into the n8n AI Agent
 - [ ] Configure isolated student session IDs
@@ -274,4 +304,4 @@ Fact preservation and public-release safety are separate checks. A page can be a
 
 ## Next step
 
-Verify the raw-file ignore rule, stage the initial public-safe files, inspect the staged diff, and create the first local Git commit.
+Connect the MK3.1 Wiki to Vector Store Loader to `https://github.com/samgo808/mk3.1`, verify that it reads only eligible `wiki/**/*.md` pages, and confirm that it writes only to `makoto_wiki_vectors_v31`.
