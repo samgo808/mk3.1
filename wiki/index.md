@@ -6,7 +6,7 @@
 - Entity: [[nucu-program-2026]] — NUCU Build in Japan, BAIM 3300, credits, credentials, and archived timeline.
 - Concept: [[nucu-startup-learning-2026]] — international startup learning, challenge areas, methods, and participant perspectives.
 
-All three NUCU pages are `approved-public` following human approval on 2026-09-28. They have not been committed, pushed, or loaded as part of this ingestion. No 2027 program arrangements are established by these pages.
+All three NUCU pages are `approved-public` following human approval on 2026-09-28. They were committed and pushed in commit `e763d60`, then loaded into `makoto_wiki_vectors_v31`. A read-only database check confirmed all three source paths with 2026/archived metadata. No 2027 program arrangements are established by these pages.
 
 ## Shared knowledge
 

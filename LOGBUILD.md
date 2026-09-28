@@ -308,3 +308,106 @@ Fact preservation and public-release safety are separate checks. A page can be a
 ## Next step
 
 Connect the MK3.1 Wiki to Vector Store Loader to `https://github.com/samgo808/mk3.1`, verify that it reads only eligible `wiki/**/*.md` pages, and confirm that it writes only to `makoto_wiki_vectors_v31`.
+
+---
+
+## 2026-09-28 — First NUCU 2026 wiki load and initial chat checks
+
+**Status:** COMPLETE for publication and first load; PARTIALLY VERIFIED for retrieval
+
+### Built and changed
+
+- Compiled, publicly reviewed, committed, and pushed three pages from `raw/program/2026/nucu_program_info.txt`: the comprehensive source account, program entity, and startup-learning concept.
+- Published the approved pages in commit `e763d60`.
+- Restricted this loader run to the three approved page paths so the existing smoke-test record would not be inserted again.
+- Added a Loop Over Items connection around Postgres PGVector Store so pages would be sent individually for insertion. The corrected loop wiring was verified visually.
+- Kept Wipe Wiki disabled and retained `makoto_wiki_vectors_v31` as the destination table.
+
+### Verification
+
+- Operator screenshots confirmed a successful pre-commit check, commit, push, three validated loader items, and corrected loop wiring.
+- Before loading, a read-only SQL result showed one stored chunk for `wiki/concepts/shared/mk31-loader-smoke-test.md`.
+- After loading, SQL showed four source groups and 22 total chunks: startup learning 6, program entity 5, source account 10, and smoke test 1.
+- The three new groups carried `course_year: "2026"` and `status: "archived"`; the smoke test remained `course_year: "shared"` and `status: "evergreen"`.
+- A supplied chat answer correctly returned three CU credits, CU Innovation & Entrepreneurship, Ludus Labs, and the expected 2026 source citation.
+- The operator reported that fresh-chat tests did not invent 2027 travel dates and correctly treated the source's population prediction as unsupported.
+- A fresh workflow export, `MK3.1 Wiki to Vector Store Loader-2.json`, was inspected without execution. It confirmed the inactive workflow, disabled Wipe Wiki node, exact three-page filter, approval validation, loop wiring, insert mode, and `makoto_wiki_vectors_v31` destination. No obvious secret values were found. Export SHA-256: `03c8ffbec35b31c8663b38949bf1bb93c9ef378d7535f1b94ece5803f9889845`.
+
+### Remaining uncertainty
+
+- The chat answers passed content checks, but the PGVector tool traces were not inspected. The answers alone do not prove which records were retrieved.
+- Active agent-table configuration, embedding-model compatibility, and metadata-filter enforcement were not independently verified in this step.
+- Loading `SOUL.md`, `MIND.md`, and `BODY.md` into the runtime, session isolation, email/calendar behavior, and end-to-end student interfaces remain unverified.
+- The exported loader is insert-only and can create duplicates if rerun. Its temporary three-path selection is not a general update strategy.
+
+### Next planned step
+
+Inspect a chat execution's PGVector tool trace to confirm retrieved content and source/year metadata, then design duplicate-safe updates before the next ingestion.
+
+---
+
+## 2026-09-28 — PGVector retrieval trace verified
+
+**Status:** VERIFIED for the tested BAIM 3300 retrieval
+
+### Evidence
+
+- The operator supplied the PGVector tool response for the BAIM 3300 credits and micro-credentials question.
+- The tool returned a chunk from `wiki/entities/2026/nucu-program-2026.md` containing the program identity and three-credit description.
+- The tool also returned the decisive chunk from `wiki/sources/2026/nucu-program-info-2026.md`, containing three CU academic credits and the two providers: CU Innovation & Entrepreneurship and Ludus Labs.
+- Both chunks carried the expected metadata: `course_year: "2026"`, `status: "archived"`, and `publication_status: "approved-public"`. Page type and title also matched their repository paths.
+- The agent's answer was therefore grounded in relevant PGVector results for this test rather than merely matching the expected wording by coincidence.
+
+### Limits
+
+- This trace verifies one direct-fact retrieval. It does not prove that course-year metadata is enforced as a database filter on every request.
+- Tool traces were not supplied for the 2027 travel-date or unsupported population-prediction tests; those remain answer-level behavior checks.
+- The chat workflow's table-name field and embedding-model setting still need direct configuration inspection or a fresh workflow export for a complete configuration record.
+
+### Next planned step
+
+Design and implement duplicate-safe page replacement before another loader run, then capture a fresh loader export and test the replacement path with a controlled page update.
+
+---
+
+## 2026-09-28 — Duplicate-safe staged replacement
+
+**Status:** COMPLETE and VERIFIED for the selected three-page replacement
+
+### Built
+
+- Added `makoto_wiki_vectors_v31_staging`, created from the production table structure and cleared at the beginning of each loader run.
+- Redirected the loader's PGVector insertion node from `makoto_wiki_vectors_v31` to the staging table.
+- Preserved the one-page loop so page text and metadata remain paired during embedding and insertion.
+- Added a staging inspection and code gate that require exactly the three selected repository paths before production promotion.
+- Added a single atomic promotion statement. It deletes production chunks only for staged source paths and inserts the staged replacements in the same PostgreSQL statement, so an insertion failure rolls back the corresponding deletions.
+- Added production-versus-staging count verification and a final code gate that throws an error for missing sources, unexpected sources, or unequal chunk counts.
+- Kept the broad production Wipe Wiki node disabled.
+
+### Verification
+
+- A staging-only preflight returned `staging_validated: true`, 3 expected sources, and 21 chunks.
+- The complete replacement returned `replacement_verified: true`, 3 verified sources, and 21 verified chunks: startup learning 6, program entity 5, and source account 10.
+- A final read-only production query returned the same three source counts plus the unchanged one-chunk shared smoke test, for 22 total chunks. No duplicate chunks were introduced.
+- The corrected workflow export passed structural and secret-pattern checks. It was inactive, targeted `makoto_wiki_vectors_v31_staging` for insertion, retained the disabled production wipe, and contained the full staging, promotion, and verification path.
+- Export filename: `MK3.1 Wiki to Vector Store Loader-2.json`
+- Export SHA-256: `c81f07024b13ee3450e88dcac608b509414efce7531be7c681105d139b362f40`
+
+### Operational behavior
+
+- Production remains available if repository fetching, page validation, embedding, staging validation, or insertion fails before promotion.
+- Promotion replaces only source paths present in the validated staging set; unrelated MK3.1 documents remain untouched.
+- The staging table retains the latest successful 21 chunks as a recovery snapshot. The next loader run truncates staging before inserting its selected pages.
+- The selected path list is explicit. A future ingestion must update both the selection and expected-path validation lists before execution.
+
+### Remaining work
+
+- Archive the corrected workflow export in an intentional local backup location.
+- Commit and push this documentation update after review.
+- Verify the chat workflow's table-name and embedding-model settings from a fresh export.
+- Implement and test enforced course-year filtering rather than relying only on prompt behavior and returned metadata.
+- Continue runtime-instruction, session-isolation, email/calendar, and student-interface testing.
+
+### Next planned step
+
+Review and publish this documentation update, then export and inspect the current `Makoto_kun 3.1` chat workflow before changing retrieval behavior.
