@@ -296,6 +296,9 @@ Fact preservation and public-release safety are separate checks. A page can be a
 - [ ] Compile and publicly review the first wiki pages
 - [ ] Load `SOUL.md`, `MIND.md`, and `BODY.md` into the n8n AI Agent
 - [ ] Configure isolated student session IDs
+- [ ] Configure and document the active program year before student deployment
+- [ ] Enforce `course_year` during retrieval through metadata filtering or separate year-aware retrieval tools
+- [ ] Test that 2027 questions cannot silently return 2026 policies and that ambiguous year-sensitive questions trigger clarification
 - [ ] Test retrieval, email, and calendar behavior
 - [ ] Complete an end-to-end Discord test
 - [ ] Decide whether to support Slack
