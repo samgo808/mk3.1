@@ -6,6 +6,7 @@ status: "archived"
 publication_status: "approved-public"
 sources:
   - raw/program/2026/nucu_program_info.txt
+  - raw/program/2026/NUCU2026_Program_Guide_RAG.txt
 updated: "2026-09-28"
 tags:
   - nucu
@@ -26,9 +27,9 @@ The course is labeled “BAIM 3300 - AI & Automation for Tomorrow's Societies.�
 
 ## Format and timeline
 
-The program outline advertises **15 days in Japan**, combining cultural exploration with business innovation. The promotional description begins with an online preparation course in **March**, followed by international teamwork at Nagoya University **“this May.”** The 2026 scope is assigned from the raw source's directory; exact dates and a daily itinerary are absent. These months must not be used as a 2027 schedule.
+The program outline advertises **15 days in Japan**, combining cultural exploration with business innovation. The promotional description begins with an online preparation course in **March**, followed by international teamwork at Nagoya University **“this May.”** The 2026 scope is assigned from the raw source's directory; exact dates and a daily itinerary are absent from that promotional source, but supplied by the separately attributed guide below. These months must not be used as a 2027 schedule.
 
-Students partner with Nagoya University students in cross-cultural cohort teams. The advertised activities include workshops, expert-led sessions, lectures, field visits, field trips, and visits to leading companies and innovation hubs. No companies or hubs are named in this source.
+Students partner with Nagoya University students in cross-cultural cohort teams. The advertised activities include workshops, expert-led sessions, lectures, field visits, field trips, and visits to leading companies and innovation hubs. No companies or hubs are named in the promotional source; the guide supplies named sites below.
 
 ## Startup work and final pitch
 
@@ -38,7 +39,15 @@ The source describes a final pitch competition in Japan, with pitching at Nagoya
 
 ## Purpose and evidence limits
 
-The program promotes international startup experience, AI and automation skills, exposure to global business and AI policy, leadership, cultural immersion, and professional networks. These are advertised benefits rather than verified outcomes. The source's unsupported prediction that over half of Japan's population will soon be over 65 is flagged in the source page and must not be treated as a fact. On 2026-09-28, the human reviewer explicitly authorized public publication of the testimonials and advice; page-level publication approval was granted on 2026-09-28.
+The program promotes international startup experience, AI and automation skills, exposure to global business and AI policy, leadership, cultural immersion, and professional networks. These are advertised benefits rather than verified outcomes. The source's unsupported prediction that over half of Japan's population will soon be over 65 is flagged in the source page and must not be treated as a fact. On 2026-09-28, the human reviewer explicitly authorized public publication of the testimonials and advice; the earlier page version was approved on 2026-09-28. This guide-based revision was approved for public publication on 2026-09-28.
+
+## Program Guide: dates, participation and fieldwork
+
+The newly ingested **NUCU 2026 Program Guide** calls the theme “Entrepreneurship and Innovation in Aging Societies” and plans **May 14–28, 2026 (15 days / 14 nights)**. It provisionally lists **20 students, one CU chaperone and one CoHo staff member**. CU & NU activities run May 18–23; other itinerary days are CU-only, with faculty appointments separately restricted.
+
+Tokyo sessions name Google for Startups and Techstars Tokyo. Nagoya learning includes the hospital/xR Center, STATION Ai, Tongali, PREVENT, NCGG/assistive robotics and Professor Hirofumi Aoki's driving simulation. Rural fieldwork includes Agi Clinic/Dr. Nobutaro Ban, Iwamura and Cyclamen elderly care. Teams organize surveys/interviews and present at NIC on May 23. Human review on 2026-09-28 confirmed **presentations starting at 13:00, followed by sushi from 15:00 to 16:00**, resolving the guide's conflicting sushi start times. No separate presentation end time is inferred.
+
+These are archived plans, not proof of completion. Lodging includes KOKO Ginza Tsukiji, Best Western Plus, Yamate South and Toyoko Inn Shinagawa Konan-guchi Tennozu Isle. The guide does not independently verify the promotional source's credit/credential award conditions. See [[nucu-program-guide-2026]] for evidence limits and full companion-page coverage.
 
 ## Related pages
 

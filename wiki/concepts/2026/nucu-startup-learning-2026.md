@@ -6,6 +6,7 @@ status: "archived"
 publication_status: "approved-public"
 sources:
   - raw/program/2026/nucu_program_info.txt
+  - raw/program/2026/NUCU2026_Program_Guide_RAG.txt
 updated: "2026-09-28"
 tags:
   - entrepreneurship
@@ -50,7 +51,15 @@ The four advice passages recommend:
 3. Bring authenticity and expect both professional and personal growth.
 4. Move beyond one's comfort zone and try different tools for an idea.
 
-These are paraphrased participant reports, not measured learning results. The source gives no participant names or publication permissions. Separately, on 2026-09-28, the human reviewer explicitly authorized public publication of the testimonials and advice. Page-level publication approval was granted on 2026-09-28.
+These are paraphrased participant reports, not measured learning results. The source gives no participant names or publication permissions. Separately, on 2026-09-28, the human reviewer explicitly authorized public publication of the testimonials and advice. The earlier page version was approved on 2026-09-28. This guide-based revision was approved for public publication on 2026-09-28.
+
+## Program Guide: connecting field evidence to ideas
+
+The **2026 Program Guide** adds concrete field-learning contexts: Google for Startups/Techstars Tokyo for mentorship and scaling; STATION Ai/Tongali for regional and university startup support; the hospital xR Center for simulation and clinical education; PREVENT for prevention and remote coaching; NCGG for evidence, safety and assistive robotics; and Professor Hirofumi Aoki for mobility and driving simulation.
+
+Rural visits to Agi Clinic, Iwamura and Cyclamen connect primary/home care, population decline, transport access and cultural continuity. The guide asks teams to compare Tokyo, Nagoya, Obu and Nakatsugawa, gather stakeholder interviews and hospital surveys, organize user/patient/family needs, and synthesize findings into NIC presentations with faculty/stakeholder feedback. These are planned learning activities, not measured outcomes or authorization to publish interviewees' personal information.
+
+The shared learning principle is to identify needs before choosing technology: biodesign in Professor Masakatsu Fukai's session, clinical problems in Dr. Shintaro Oyama's session, and user-centered evaluation at NCGG and the xR Center. See [[nucu-program-guide-2026]], [[nucu-healthcare-and-mobility-sites-2026]], [[nucu-rural-field-sites-2026]] and [[nucu-startup-ecosystem-sites-2026]].
 
 ## Related pages
 
