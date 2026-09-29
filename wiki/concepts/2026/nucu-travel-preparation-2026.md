@@ -6,6 +6,7 @@ status: "archived"
 publication_status: "approved-public"
 sources:
   - raw/program/2026/NUCU2026_Program_Guide_RAG.txt
+  - raw/program/2026/NUCU_Packing_Guide.txt
 updated: "2026-09-28"
 tags:
   - packing
@@ -17,7 +18,7 @@ tags:
 
 # NUCU Travel Preparation and Daily Living — 2026
 
-The archived NUCU 2026 guide describes travel preparation, personal supplies, insurance, meals, payments and connectivity for the May 2026 trip. Prices, availability, banking claims and food/health guidance below are source statements, not verified current advice or 2027 requirements. Sources: pages 1, 14–15 and 42–46.
+The archived NUCU 2026 Program Guide describes travel preparation, personal supplies, insurance, meals, payments and connectivity for the May 2026 trip; the Packing Guide adds a pack-light strategy and language advice. Prices, availability, banking claims and food/health guidance below are source statements, not verified current advice or 2027 requirements. Existing Program Guide coverage comes from pages 1, 14–15 and 42–46; the separately attributed Packing Guide additions were approved for public publication on 2026-09-28.
 
 ## Packing and before departure
 
@@ -26,6 +27,14 @@ The list names **passport; thermometer; clothing for the stay; masks for at leas
 The guide describes rainy season as early June to mid-July and increasing rain toward late May. It says a nearby shopping mall has **UNIQLO, DAISO, a pharmacy, groceries, restaurants, Burger King and Starbucks**, without naming its location. Missing nonmandatory supplies can be bought locally. Yamate South supplies no towels, shampoo or detergent; laundry is paid.
 
 Students should recheck e-tickets, arrive early and ask airlines about baggage, excess weight and meals. The guide says most airlines allow online check-in **24 hours** before departure and suggests putting an email in the reservation for schedule/cancellation alerts. No airline-specific guarantee is given.
+
+## Packing Guide additions and accommodation differences
+
+The **2026 Packing Guide** recommends one rolling suitcase plus one backpack, a layered wardrobe, laundry halfway through the trip, broken-in walking shoes, a power bank and rain protection. Its exact clothing quantities, suggested suitcase dimensions and **15,000–20,000 daily-step estimate** are preserved in [[nucu-packing-guide-2026]]. It adds passport/insurance-document copies, a hand towel, coin purse, small trash bag and American snacks for meeting Nagoya students. See [[nucu-japanese-language-basics-2026]] for its phrase sheet.
+
+### Conflicting information — hotel advice versus Yamate South
+
+The Packing Guide says hotels provide towels and shampoo/soap and most laundry machines dispense detergent. The Program Guide's residence-specific account says **Yamate South provides no towels, shampoo or laundry detergent**. The Packing Guide names no hotel or machine, so its advice must not override the Yamate South requirements. A compact hand towel for public restrooms is also distinct from a bathing towel. These statements may describe different accommodations; the reviewer chose to keep this scope difference explicit.
 
 ## Insurance and emergencies
 

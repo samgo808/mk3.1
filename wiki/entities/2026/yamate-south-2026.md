@@ -6,6 +6,7 @@ status: "archived"
 publication_status: "approved-public"
 sources:
   - raw/program/2026/NUCU2026_Program_Guide_RAG.txt
+  - raw/program/2026/NUCU_Packing_Guide.txt
 updated: "2026-09-28"
 tags:
   - housing
@@ -36,7 +37,11 @@ A staff member must inspect rooms at checkout, and the program coordinator must 
 
 **Towels, shampoo and laundry detergent are not provided.** The guide recommends bringing a lightweight, quick-drying towel. Laundry facilities require payment; no laundry price is given. Students should distinguish these explicit omissions from bedding/kitchenware, which are conditional.
 
-Public release of these archived group residence arrangements was approved on 2026-09-28. Campus-route images are not recoverable from the supplied text; this page does not infer walking directions from missing maps.
+The earlier version of these archived group residence arrangements and this Packing Guide comparison were approved for public publication on 2026-09-28. Campus-route images are not recoverable from the supplied text; this page does not infer walking directions from missing maps.
+
+## Conflicting information — general hotel packing advice
+
+The **2026 Packing Guide** advises against bulky towels because hotels provide them, suggests hotel shampoo/soap or travel sizes, and says most coin-laundry machines automatically dispense detergent. It does **not name Yamate South** or establish what this residence supplies. Preserve the Program Guide's specific statement that **towels, shampoo and detergent are not provided**, and do not apply generic hotel amenities to the residence. The two accounts may concern different accommodations; their scope difference remains explicit. See [[nucu-packing-guide-2026]] for the full packing checklist and qualifications.
 
 ## Related pages
 
