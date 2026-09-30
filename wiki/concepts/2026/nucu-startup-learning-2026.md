@@ -5,9 +5,10 @@ course_year: "2026"
 status: "archived"
 publication_status: "approved-public"
 sources:
+  - raw/program/2026/2026-08-24-luduslabs-website.txt
   - raw/program/2026/nucu_program_info.txt
   - raw/program/2026/NUCU2026_Program_Guide_RAG.txt
-updated: "2026-09-28"
+updated: "2026-09-29"
 tags:
   - entrepreneurship
   - design-thinking
@@ -60,6 +61,16 @@ The **2026 Program Guide** adds concrete field-learning contexts: Google for Sta
 Rural visits to Agi Clinic, Iwamura and Cyclamen connect primary/home care, population decline, transport access and cultural continuity. The guide asks teams to compare Tokyo, Nagoya, Obu and Nakatsugawa, gather stakeholder interviews and hospital surveys, organize user/patient/family needs, and synthesize findings into NIC presentations with faculty/stakeholder feedback. These are planned learning activities, not measured outcomes or authorization to publish interviewees' personal information.
 
 The shared learning principle is to identify needs before choosing technology: biodesign in Professor Masakatsu Fukai's session, clinical problems in Dr. Shintaro Oyama's session, and user-centered evaluation at NCGG and the xR Center. See [[nucu-program-guide-2026]], [[nucu-healthcare-and-mobility-sites-2026]], [[nucu-rural-field-sites-2026]] and [[nucu-startup-ecosystem-sites-2026]].
+
+## Ludus Labs website: learning through building
+
+The **August 24, 2026** Ludus Labs website snapshot describes learning by building in startup teams across countries and disciplines, online and in person. It frames NUCU as “Study Abroad Meets a Startup Studio,” combining a design sprint, test market research and an international pitch competition. Healthcare for longer-lived societies, demographic change and the future of education are examples of impact areas. The website says Ludus means **play and school in Latin**, expressing serious learning through playful experimentation; these are its stated philosophy and claims.
+
+Its four intended audiences are **Purpose Driven Builders** (meaningful ventures and creation), **Creative Technologists** (immersive, human-centered experiences), **Systems Hackers** (experimentation with complex problems), and **Global Team Players** (collaboration across cultures and time zones). They are descriptions of whom the programs aim to benefit, not formal entry requirements.
+
+Six benefits are advertised: **Cross-Cultural Innovation**, **Business Validation**, **Applied AI Learning**, **Network for the Future**, **Certify Skills, Earn Credit**, and **Stay Connected, Give Back**. They cover teamwork and communication, business-model validation and framing solutions, AI/emerging-technology knowledge on an impact startup team, and connections with global innovators, entrepreneurs and business professionals. The website offers a **digital certificate** and academic credit **at eligible schools**, plus **lifetime alumni-community access** and the **chance to return as an ambassador** helping lead future programs. These are source promises, not verified outcomes, universal credit eligibility or guaranteed ambassador roles.
+
+See [[2026-08-24-luduslabs-website]] for full snapshot coverage and its separately attributed testimonial, and [[ludus-labs-2026]] for the organization. These website additions were approved for public publication on 2026-09-29.
 
 ## Related pages
 

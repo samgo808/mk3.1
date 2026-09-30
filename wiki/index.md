@@ -39,3 +39,14 @@ The approval includes the retained accommodation caveat: generic hotel amenity a
 - Concept: [[nucu-japanese-language-basics-2026]] — exact phrase sheet, usage examples, pronunciation mnemonics and etiquette.
 - Revised concept: [[nucu-travel-preparation-2026]] — integrates packing advice and distinguishes hotel amenities from residence requirements.
 - Revised entity: [[yamate-south-2026]] — preserves residence-specific supplies alongside the Packing Guide's hotel assumptions.
+
+## Ludus Labs website — August 24, 2026 snapshot approved
+
+Only `raw/program/2026/2026-08-24-luduslabs-website.txt` was newly ingested on 2026-09-29. The reviewer approved all four pages for public publication on 2026-09-29. They are local `approved-public` pages awaiting commit, push and loading. The earlier published program and startup-learning versions remain the last reported production versions.
+
+- Source: [[2026-08-24-luduslabs-website]] — complete snapshot, named testimonial and enrollment-label limitations.
+- Entity: [[ludus-labs-2026]] — incubator, learning philosophy, audiences and community.
+- Revised entity: [[nucu-program-2026]] — website promotion and archived application labels.
+- Revised concept: [[nucu-startup-learning-2026]] — intended participants, six benefits and alumni promises.
+
+Approval includes retaining the attribution to P. Zaveri under “What Students Say,” and preserving “Upcoming Programs” alongside “Applications Closed” without treating either as current enrollment information. Source limitations remain explicit.

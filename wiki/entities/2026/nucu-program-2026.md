@@ -5,9 +5,10 @@ course_year: "2026"
 status: "archived"
 publication_status: "approved-public"
 sources:
+  - raw/program/2026/2026-08-24-luduslabs-website.txt
   - raw/program/2026/nucu_program_info.txt
   - raw/program/2026/NUCU2026_Program_Guide_RAG.txt
-updated: "2026-09-28"
+updated: "2026-09-29"
 tags:
   - nucu
   - baim-3300
@@ -39,7 +40,7 @@ The source describes a final pitch competition in Japan, with pitching at Nagoya
 
 ## Purpose and evidence limits
 
-The program promotes international startup experience, AI and automation skills, exposure to global business and AI policy, leadership, cultural immersion, and professional networks. These are advertised benefits rather than verified outcomes. The source's unsupported prediction that over half of Japan's population will soon be over 65 is flagged in the source page and must not be treated as a fact. On 2026-09-28, the human reviewer explicitly authorized public publication of the testimonials and advice; the earlier page version was approved on 2026-09-28. This guide-based revision was approved for public publication on 2026-09-28.
+The program promotes international startup experience, AI and automation skills, exposure to global business and AI policy, leadership, cultural immersion, and professional networks. These are advertised benefits rather than verified outcomes. The source's unsupported prediction that over half of Japan's population will soon be over 65 is flagged in the source page and must not be treated as a fact. On 2026-09-28, the human reviewer explicitly authorized public publication of the testimonials and advice; the earlier page version was approved on 2026-09-28. The earlier guide-based revision was approved for public publication on 2026-09-28; the website additions below were approved for public publication on 2026-09-29.
 
 ## Program Guide: dates, participation and fieldwork
 
@@ -48,6 +49,16 @@ The newly ingested **NUCU 2026 Program Guide** calls the theme “Entrepreneursh
 Tokyo sessions name Google for Startups and Techstars Tokyo. Nagoya learning includes the hospital/xR Center, STATION Ai, Tongali, PREVENT, NCGG/assistive robotics and Professor Hirofumi Aoki's driving simulation. Rural fieldwork includes Agi Clinic/Dr. Nobutaro Ban, Iwamura and Cyclamen elderly care. Teams organize surveys/interviews and present at NIC on May 23. Human review on 2026-09-28 confirmed **presentations starting at 13:00, followed by sushi from 15:00 to 16:00**, resolving the guide's conflicting sushi start times. No separate presentation end time is inferred.
 
 These are archived plans, not proof of completion. Lodging includes KOKO Ginza Tsukiji, Best Western Plus, Yamate South and Toyoko Inn Shinagawa Konan-guchi Tennozu Isle. The guide does not independently verify the promotional source's credit/credential award conditions. See [[nucu-program-guide-2026]] for evidence limits and full companion-page coverage.
+
+## Ludus Labs website snapshot: August 24, 2026
+
+The archived website promotes **“NUCU 2026 - Build in Japan: AI & Automation for Tomorrow's Societies”**, naming Nagoya University and the University of Colorado, Boulder. “Study Abroad Meets a Startup Studio” describes **15 days in Japan**, global entrepreneurship, AI-driven automation and cross-cultural collaboration. It names a design sprint, test market research and an international pitch competition to address what the website calls population collapse. Its other headline benefits are building an idea with impact, academic credit and microcredentials, global networking, and “More Than a Class.” These are promotional claims, not completion records.
+
+The website's general learning-benefit section offers a digital certificate and academic credit **at eligible schools**. It specifies no credit count, credential provider or award conditions. The three-credit CU description and named micro-credential providers above come from the earlier program-information source, not this website snapshot. See [[ludus-labs-2026]] for the organization and alumni-community promises.
+
+### Conflicting information — archived application labels
+
+The **August 24, 2026** capture places NUCU 2026 under **“Upcoming Programs”** while displaying **“Applications Closed.”** The separately sourced Program Guide dates the planned trip to May 14–28, 2026. Preserve the captured wording without inferring that applications were open in August, that a new session was planned, or that the program is currently upcoming. The cause of the website's timing mismatch is unverified. See [[2026-08-24-luduslabs-website]] for the snapshot and review issues.
 
 ## Related pages
 
