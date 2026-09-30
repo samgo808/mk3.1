@@ -153,3 +153,46 @@
 - The reviewer explicitly said “approved” following the name-retention decision and Idea Stoa correction. Recorded approved-public for [[leeds-build-in-japan-article-2026]], [[nucu-course-architecture-2026]], [[nucu-student-venture-portfolio-2026]], [[nucu-program-2026]] and [[nucu-startup-learning-2026]]. Updated the index and pending-review wording.
 - Approval covers named student reflections and degree/year labels, the five venture concepts, Idea Stoa at NIC as the corrected venue, and the preserved July 1/July 2 date discrepancy. Source qualifications remain intact.
 - No staging, commit, push or loader execution was performed. The five pages plus index/log updates are ready for publication as a separate step.
+
+## 2026-09-30 — Nine curriculum sources prepared for review
+
+- Authorized scope: exactly the nine lecture files listed below under `raw/curriculum/2026/`. Read all eight full transcripts and the short sessions 8–11 outline. Directory scope determines 2026/archived metadata. No other raw source was newly ingested; previous evidence was consulted through existing wiki pages.
+- Prepared 21 new knowledge pages (nine comprehensive source accounts, ten concepts, two entities) and revised two existing concepts: [[nucu-course-architecture-2026]] and [[nucu-japanese-language-basics-2026]]. All 23 knowledge pages are `review-required`, dated 2026-09-30. The complete review set is listed in the new curriculum section of `wiki/index.md`.
+- Preserved historical periods, people/institutions, technological and institutional examples, classroom disagreements, quiz arrangements, demographic/financial figures, named AI demonstrations, process sequences, healthcare-system distinctions, sprint activities/voting, archived travel guidance and prototype examples. Source figures are attributed rather than independently certified. Comprehensive transcript accounts exceed the approximate 300–800-word target to retain narrow facts; shorter linked concept/entity pages provide focused retrieval. The 67-word sprint outline justifies a shorter source page, not invented detail.
+- Fact-preservation checks: compared the recoverable teaching sections with the drafts; separately audited number candidates and proper nouns/examples. Eighteen direct/paraphrased question pairs and three cross-source synthesis checks found the required local evidence. Topics included Perry/Myriad Clock, MITI/FILP and quizzes, OSI/TCP-IP and two LCM meanings, fruit arithmetic/training versus inference, demographic adaptation/Society 5.0, home care/insurance chronology, sprint dates/voting, RAG failure/consensus, insurance scope and the demographic-map prototype. These are compiled-text evidence checks, not live retrieval or model-answer tests.
+- Unreadable/omitted material: repeated speech, microphone logistics, unrelated conversations and student turn-taking labels are excluded from the educational accounts. Garbled passages, absent slides/videos/links, unknown 5P labels, uncertain names and missing charts are explicitly disclosed. Identifying patient/minor details and private educational/employment-history anecdotes are redacted or excluded; the original evidence remains only in immutable local raw files. No missing outcome or source is reconstructed.
+- Public-release screening completed for filenames, frontmatter, page bodies and links. No credential values, private invitation/meeting links, completed health forms, student roster or identifying private medical record was found in the compiled set. Automated sensitive-pattern checks supplement, but do not replace, contextual review. Publication approval remains pending; all pages stay local and review-required.
+
+### Human review points
+
+| Review subject | Pages and decision needed |
+|---|---|
+| Personal/unpublished assistant examples | [[2026-01-27-nucu-session-3]], [[nucu-ai-assistant-demonstrations-2026]], [[2026-04-07-nucu-session-12]], [[nucu-ai-assisted-prototyping-2026]] retain Weela AI, a family-related assistant example, a personal driving-app demonstration and a proposed senior-support business. Private autobiographical answers and identifying minor records are not reproduced. Review release of the retained examples. |
+| Student-created artifact | [[2026-04-14-nucu-session-13]] and [[nucu-ai-assisted-prototyping-2026]] retain Blake's name and unpublished Japan demographic-map demonstration. Its 2020 census/2050 projection claims have no supplied dataset or validation. Prior approval of names in the public Leeds article does not automatically approve this classroom artifact. |
+| Internal arrangements and professional attribution | Sources for sessions 3, 4, 6, 7, 12 and 13 retain dated quiz instructions, professional names, Discord onboarding, work groups, team decisions, planned visits/meeting and job leads. Review their public release; personal contact values and private links are absent. Staff names include uncertain transcript spellings. |
+| Historical, demographic and technical uncertainty | Source pages retain and flag questionable historical figures, FineWeb/model/hardware quantities, LCM and embedding conflations, demographic arithmetic, visa/property/IPO generalizations and a disputed unnamed healthcare-company anecdote. These are classroom claims, not externally verified facts. |
+| Healthcare and travel limits | [[2026-02-24-nucu-session-7]] preserves conflicting copays, age bands, survey interpretations, doctor comparisons and the contradictory euthanasia-specialty phrase. [[2026-04-14-nucu-session-13]] records a dated briefing without asserting current insurance, medication, travel or admissions rules. |
+| Missing schedule evidence | [[2026-03-nucu-sessions-8-11]] has four dates but five day labels. No fifth date or activity-to-date mapping is invented. April's previous-year field video and tentative 2026 plans remain distinct from confirmed itinerary evidence. |
+
+### Source integrity record
+
+SHA-256 values were captured during preparation and rechecked before saving. All nine originals remain unchanged:
+
+- `raw/curriculum/2026/nucu_lecture_session12_4_7_2026_CUT.txt` — `d365f2c3788830a6febbff50f741b47e01fdcd7a1cb9a171b24dcaf80c481a6a`.
+- `raw/curriculum/2026/nucu_lecture_session13_4_14_2026_CUT.txt` — `8c791ab6fda19d93e8bec7fb17e78142796612002cc3b75e48876bfc0a494654`.
+- `raw/curriculum/2026/nucu_lecture_session2_1_20_2026_CUT.txt` — `a847a1441560624cee077ef10bcebbec27c005f3dbf7bf0ad489c15a23f7d93c`.
+- `raw/curriculum/2026/nucu_lecture_session3_1_27_2026_CUT.txt` — `b67cc03891e34d81ee2ac6b64e623428f4c13a9b1658ee3df823178f8827851a`.
+- `raw/curriculum/2026/nucu_lecture_session4_2_3_2026_CUT.txt` — `70b0e1002511730e236db662cc6dd8be79b0f5c6f3dfea9842c5814f5e141ba7`.
+- `raw/curriculum/2026/nucu_lecture_session5_2_10_2026_CUT.txt` — `c488b8297077221be5293d0023694ec6c1792a36d12b69aa58d59c5095c3e62d`.
+- `raw/curriculum/2026/nucu_lecture_session6_2_17_2026_CUT.txt` — `d9a27f0fdc254203253e64b7b99d60227ead7b5508539ab864183c6577c27c03`.
+- `raw/curriculum/2026/nucu_lecture_session7_2_24_2026_CUT.txt` — `5aab66baf6399e848ae41b9acca251a2d5d8c11260f8b9782b2c04088289f338`.
+- `raw/curriculum/2026/nucu_lecture_session8-11_3_3-31_2026_CUT.txt` — `600a783b78373c0aa72aac8af6906a0169cae89b392f986642e5893f3dd110e8`.
+
+Metadata, source existence, index coverage, wikilinks, headings, placeholders and local evidence checks passed on the prepared set. This completes preparation for human review, not approval for publication. No staging, approval, commit, push, loader execution or database operation is part of this ingestion. Root operating documents and existing unrelated pages remain unchanged.
+
+## 2026-09-30 — All 23 curriculum pages approved for public publication
+
+- The human reviewer instructed: “retain the factual caveats, approve all.” Marked exactly the 23 knowledge pages in the nine-source curriculum review set approved-public: 21 new pages and the revised course-architecture and Japanese-language concepts. Updated current review wording and index status; the earlier review log remains an historical record.
+- Approval covers the retained Weela AI/family assistant and personal app examples, prospective senior-support business, Blake's name and unpublished demographic-map demonstration, and retained internal course/professional information. Existing privacy redactions and exclusions remain intact.
+- All historical, demographic, technical, healthcare, travel, projection and scheduling caveats are retained. Approval authorizes publication of the qualified accounts; it is not independent factual verification, validation of a prototype, or evidence of current runtime deployment.
+- Raw sources remain unchanged. No staging, commit, push, loader execution or database operation was performed. These approved local pages are ready for a separately authorized publication step.

@@ -6,11 +6,12 @@ status: "archived"
 publication_status: "approved-public"
 sources:
   - raw/program/2026/NUCU_Packing_Guide.txt
-updated: "2026-09-28"
+  - raw/curriculum/2026/nucu_lecture_session12_4_7_2026_CUT.txt
+updated: "2026-09-30"
 tags:
-  - japanese-language
-  - etiquette
-  - intercultural-learning
+  - "japanese-language"
+  - "etiquette"
+  - "intercultural-learning"
   - "2026"
 ---
 
@@ -48,7 +49,7 @@ These are the source's beginner mnemonics, not a complete phonetic description o
 
 ## Non-verbal communication and train etiquette
 
-The guide suggests a slight bow of **about 15 degrees** while saying **“Thank you” or “Excuse me” in English**. It emphasizes effort and intent over perfect grammar. No Japanese translation of “Thank you” is supplied in this source.
+The guide suggests a slight bow of **about 15 degrees** while saying **“Thank you” or “Excuse me” in English**. It emphasizes effort and intent over perfect grammar. No Japanese translation of “Thank you” is supplied in the Packing Guide; the April lecture adds domo below.
 
 It uses a humorous “rock concert” comparison to urge Americans to lower conversational volume on Japanese commuter trains. The practical point is consideration for fellow passengers; its statements about national communication habits are broad source generalizations, not universal descriptions of individuals. The stated aim is to be harmonious without being invisible.
 
@@ -56,3 +57,19 @@ It uses a humorous “rock concert” comparison to urge Americans to lower conv
 
 - [[nucu-packing-guide-2026]] — comprehensive source account and limitations.
 - [[nucu-travel-preparation-2026]] — documents, daily supplies and preparation.
+
+## April 7 lecture: conversational pairs
+
+The archived April 7, 2026 class adds seven expressions, practiced aloud with examples. These are contextual beginner glosses, not literal substitutes in every situation.
+
+| Expression | Use taught in class |
+|---|---|
+| **Itadakimasu** | Before eating; appreciation and respect for the meal, compared with but not equated to grace/prayer. |
+| **Gochisosama / gochisosama deshita** | After eating; the longer form is offered as more polite. Also used when leaving a restaurant after a good meal. |
+| **Hajimemashite** | “Nice to meet you” at a first introduction. |
+| **Yoroshiku onegaishimasu** | Often follows introducing oneself; “please take care of me” is an incomplete gloss for a culturally relational expression. |
+| **Dozo** | “Here you go / please” when offering something, such as a chair. Distinguished from request **kudasai**. |
+| **Domo** | Casual “thanks,” for example receiving change at a convenience store. The speaker corrects a suggestion that it is especially formal. |
+| **Gambatte** | Encouragement: “do your best / go for it,” including to teammates. Transcribed “gambate.” |
+
+The lecture pairs before/after a meal, greeting/relationship, and offering/thanks. The referenced pronunciation/cultural links and slide deck are not supplied. See [[2026-04-07-nucu-session-12]] for the lesson's broader context.

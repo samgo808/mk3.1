@@ -62,3 +62,33 @@ Only `raw/program/2026/2026-07-02-leeds-build-in-japan-article.txt` was newly in
 - Revised concept: [[nucu-startup-learning-2026]] — links retrospective learning and the portfolio to earlier material.
 
 On 2026-09-29 the reviewer confirmed the article is public-facing, authorized retaining the student names, and corrected “Idea Store” to **Idea Stoa at NIC, Nagoya University**. The raw wording is preserved in the source discrepancy record. The July 1 versus July 2 publication date remains unresolved. Final approval covers all five pages, the named student reflections and degree/year labels, the five venture concepts, the corrected venue and the retained date discrepancy. No staging, commit, push or loading has occurred for this ingestion.
+
+## Nine curriculum sources — 2026 approved local pages
+
+Prepared on 2026-09-30 from exactly the nine authorized files under `raw/curriculum/2026/`. The human reviewer approved all 23 knowledge pages below (21 new, two revised) on 2026-09-30 and instructed that all factual caveats be retained. Approval covers the personal examples, student prototype and internal course information. No staging, commit, push or loading has occurred for this batch. Earlier sections retain their historical status notes; this section records only the new local review set.
+
+- source: [[2026-01-20-nucu-session-2]] — NUCU Session 2: Edo to Meiji Reinvention — 2026-01-20.
+- source: [[2026-01-27-nucu-session-3]] — NUCU Session 3: Postwar Growth, Lost Decades and AI Demonstrations — 2026-01-27.
+- source: [[2026-02-03-nucu-session-4]] — NUCU Session 4: Networking and AI Model Primer — 2026-02-03.
+- source: [[2026-02-10-nucu-session-5]] — NUCU Session 5: LLMs, Transformers and Training — 2026-02-10.
+- source: [[2026-02-17-nucu-session-6]] — NUCU Session 6: Reiwa, Shrinking Society and Makoto-kun — 2026-02-17.
+- source: [[2026-02-24-nucu-session-7]] — NUCU Session 7: Aging, Healthcare and Dignity in Japan — 2026-02-24.
+- source: [[2026-03-nucu-sessions-8-11]] — NUCU Sessions 8–11: Virtual Design Thinking Sprint Outline — March 2026.
+- source: [[2026-04-07-nucu-session-12]] — NUCU Session 12: Sprint Debrief, RAG and AI Coding — 2026-04-07.
+- source: [[2026-04-14-nucu-session-13]] — NUCU Session 13: Travel Briefing and App Prototyping — 2026-04-14.
+- concept: [[nucu-edo-meiji-institutions-2026]] — Edo and Meiji Institutional Reinvention in NUCU — 2026.
+- concept: [[nucu-postwar-growth-and-stagnation-2026]] — Japan Postwar Growth and Stagnation in NUCU — 2026.
+- concept: [[nucu-networking-primer-2026]] — NUCU Networking Primer: OSI and TCP/IP — 2026.
+- concept: [[nucu-ai-model-tradeoffs-2026]] — NUCU AI Model Types and Tradeoffs — 2026.
+- concept: [[nucu-llm-training-lifecycle-2026]] — NUCU LLM Training, Tokens and Inference — 2026.
+- concept: [[nucu-shrinking-society-design-2026]] — NUCU Designing for a Shrinking Society — 2026.
+- concept: [[nucu-japan-startup-policy-2026]] — NUCU Japan Startup Ecosystem and Society 5.0 Discussion — 2026.
+- concept: [[nucu-japan-care-systems-2026]] — NUCU Japan Care Systems, Access and Dignity — 2026.
+- concept: [[nucu-design-sprint-collaboration-2026]] — NUCU Design Sprint and International Team Decisions — 2026.
+- concept: [[nucu-ai-assisted-prototyping-2026]] — NUCU AI-Assisted App Prototyping — 2026.
+- Revised concept: [[nucu-japanese-language-basics-2026]] — NUCU Japanese Language Basics and Etiquette — 2026.
+- Revised concept: [[nucu-course-architecture-2026]] — NUCU People-First Course Architecture — 2026.
+- entity: [[nucu-ai-assistant-demonstrations-2026]] — NUCU Historical AI Assistant Demonstrations — 2026.
+- entity: [[nucu-makoto-rag-demonstrations-2026]] — Makoto-kun Classroom RAG Demonstrations — 2026.
+
+Approved review subjects, with all factual caveats retained: the Weela AI/family assistant and personal app examples; Blake's unpublished demographic-map prototype; internal onboarding/course coordination and named professional contacts; conflicting demographic/healthcare figures and technical explanations; and four sprint dates versus five day labels. Identifying patient/minor/private educational details are redacted or excluded. Source claims remain attributed; no current medical, travel, legal, product or runtime guarantees are established.
