@@ -5,6 +5,7 @@ course_year: "2026"
 status: "archived"
 publication_status: "approved-public"
 sources:
+  - raw/program/2026/2026-07-02-leeds-build-in-japan-article.txt
   - raw/program/2026/2026-08-24-luduslabs-website.txt
   - raw/program/2026/nucu_program_info.txt
   - raw/program/2026/NUCU2026_Program_Guide_RAG.txt
@@ -71,6 +72,12 @@ Its four intended audiences are **Purpose Driven Builders** (meaningful ventures
 Six benefits are advertised: **Cross-Cultural Innovation**, **Business Validation**, **Applied AI Learning**, **Network for the Future**, **Certify Skills, Earn Credit**, and **Stay Connected, Give Back**. They cover teamwork and communication, business-model validation and framing solutions, AI/emerging-technology knowledge on an impact startup team, and connections with global innovators, entrepreneurs and business professionals. The website offers a **digital certificate** and academic credit **at eligible schools**, plus **lifetime alumni-community access** and the **chance to return as an ambassador** helping lead future programs. These are source promises, not verified outcomes, universal credit eligibility or guaranteed ambassador roles.
 
 See [[2026-08-24-luduslabs-website]] for full snapshot coverage and its separately attributed testimonial, and [[ludus-labs-2026]] for the organization. These website additions were approved for public publication on 2026-09-29.
+
+## Leeds retrospective: course sequence and student concepts
+
+The archived 2026 Leeds article reports **20 Leeds students** working with Nagoya University peers through BAIM 3300 in the Management Information Systems program, partnered with Ludus Labs. Its seven stages run from historical/demographic foundations and a technology primer through design sprint, global collaboration, field validation, venture presentation and reflection/microcredentials. See [[nucu-course-architecture-2026]] for the complete sequence, including TCP/IP, OSI, SaaS platforms and the final-pitch venue **Idea Stoa at NIC, Nagoya University**, corrected by the reviewer on 2026-09-29 from the article's erroneous “Idea Store.”
+
+The article names **Kizuki Care, Akira Care, Kizuna Village, Anshin Care and Kizuna**; [[nucu-student-venture-portfolio-2026]] preserves their distinct concepts and primary users. Not every concept is intended to become a company. The retrospective supports a reported experience, not independent verification of launches or learning gains. [[leeds-build-in-japan-article-2026]] preserves all named and anonymous reflections and the July 1/July 2 date discrepancy. These Leeds article additions were approved for public publication on 2026-09-29.
 
 ## Related pages
 

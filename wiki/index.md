@@ -50,3 +50,15 @@ Only `raw/program/2026/2026-08-24-luduslabs-website.txt` was newly ingested on 2
 - Revised concept: [[nucu-startup-learning-2026]] — intended participants, six benefits and alumni promises.
 
 Approval includes retaining the attribution to P. Zaveri under “What Students Say,” and preserving “Upcoming Programs” alongside “Applications Closed” without treating either as current enrollment information. Source limitations remain explicit.
+
+## Leeds Build in Japan article — 2026 approved local pages
+
+Only `raw/program/2026/2026-07-02-leeds-build-in-japan-article.txt` was newly ingested on 2026-09-29. The requested path omitted the year folder; the actual file was found in `2026/` and was not moved. All five knowledge pages were approved for public publication on 2026-09-29 and are marked approved-public.
+
+- Source: [[leeds-build-in-japan-article-2026]] — retrospective, author, student reflections and date discrepancy.
+- Concept: [[nucu-course-architecture-2026]] — seven-stage course sequence and people-first rationale.
+- Entity: [[nucu-student-venture-portfolio-2026]] — five venture concepts and their primary users.
+- Revised entity: [[nucu-program-2026]] — reported participation and source distinctions.
+- Revised concept: [[nucu-startup-learning-2026]] — links retrospective learning and the portfolio to earlier material.
+
+On 2026-09-29 the reviewer confirmed the article is public-facing, authorized retaining the student names, and corrected “Idea Store” to **Idea Stoa at NIC, Nagoya University**. The raw wording is preserved in the source discrepancy record. The July 1 versus July 2 publication date remains unresolved. Final approval covers all five pages, the named student reflections and degree/year labels, the five venture concepts, the corrected venue and the retained date discrepancy. No staging, commit, push or loading has occurred for this ingestion.

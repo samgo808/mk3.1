@@ -5,6 +5,7 @@ course_year: "2026"
 status: "archived"
 publication_status: "approved-public"
 sources:
+  - raw/program/2026/2026-07-02-leeds-build-in-japan-article.txt
   - raw/program/2026/2026-08-24-luduslabs-website.txt
   - raw/program/2026/nucu_program_info.txt
   - raw/program/2026/NUCU2026_Program_Guide_RAG.txt
@@ -59,6 +60,12 @@ The website's general learning-benefit section offers a digital certificate and 
 ### Conflicting information — archived application labels
 
 The **August 24, 2026** capture places NUCU 2026 under **“Upcoming Programs”** while displaying **“Applications Closed.”** The separately sourced Program Guide dates the planned trip to May 14–28, 2026. Preserve the captured wording without inferring that applications were open in August, that a new session was planned, or that the program is currently upcoming. The cause of the website's timing mismatch is unverified. See [[2026-08-24-luduslabs-website]] for the snapshot and review issues.
+
+## Leeds retrospective: reported spring 2026 participation
+
+The Leeds article by **Matthew Brady, Assistant Teaching Professor of Organizational Leadership and Information Analytics**, reports **20 Leeds students** participating in spring 2026 in partnership with Ludus Labs. It places **BAIM 3300** in the **Management Information Systems program** and describes both **two weeks in Tokyo and Nagoya** and a **15-day experience**. This is a retrospective report, whereas the Program Guide above records plans; it does not independently confirm every itinerary detail or credential award.
+
+On 2026-09-29, the reviewer confirmed that the article's **“Idea Store”** label is a mistake and corrected the final-pitch venue to **Idea Stoa at NIC, Nagoya University**. Its header states July 1, 2026, while its filename/URL indicate July 2; the publication day remains unresolved. See [[leeds-build-in-japan-article-2026]], [[nucu-course-architecture-2026]] and [[nucu-student-venture-portfolio-2026]] for the full account. These Leeds article additions were approved for public publication on 2026-09-29.
 
 ## Related pages
 
