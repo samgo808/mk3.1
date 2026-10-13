@@ -411,3 +411,38 @@ Design and implement duplicate-safe page replacement before another loader run, 
 ### Next planned step
 
 Review and publish this documentation update, then export and inspect the current `Makoto_kun 3.1` chat workflow before changing retrieval behavior.
+
+---
+
+## 2026-10-13 — MK3.1 public web release closed
+
+**Status:** COMPLETE by owner declaration; verification limits retained
+
+### Completed release
+
+- Published the standalone MAKOTO-KUN v3.1 interface at `https://www.luduslabs.co/makoto` through the Ludus Labs GitHub/Vercel deployment.
+- Connected the browser to the existing n8n Chat Trigger through the same-origin Vercel route `/api/makoto`. The route keeps the n8n webhook URL and Basic Auth credential server-side.
+- Kept the Gmail and Google Calendar capabilities connected to the approved dummy Gmail account.
+- Verified an end-to-end public chat response and operator-reported knowledge retrieval through the live interface.
+- Raised the n8n AI Agent maximum iterations from 6 to 10 after a live execution reached the earlier limit; the next manual test completed successfully.
+- Fixed the public chat input focus regression that previously accepted only one character before requiring another click. The fix was deployed in Ludus site commit `e48b5ac`.
+- Added the linked Ludus Labs copyright footer and deployed it in Ludus site commit `852eee9`.
+- Configured a Vercel WAF rule in the dashboard for `/api/makoto`: fixed window, 30 requests per 60 seconds per IP, returning HTTP 429 when exceeded. The saved/published state and active enforcement were not independently rechecked.
+
+### Verification boundaries
+
+- The public route, footer, continuous typing, authenticated n8n handoff, and a successful answer were directly checked.
+- The successful answer and operator report confirm working retrieval behavior for the tested question, but the exact production PGVector table name was not independently captured during this web-release closeout.
+- Hard `course_year` enforcement remains unverified. Prompt behavior and returned metadata do not constitute a database-level year filter.
+- Discord and Slack were not part of this public web release. Their current deployment state remains separate.
+- No long-duration load test, multi-user classroom test, or independent WAF enforcement test was performed.
+
+### Version boundary
+
+- The owner declared MK3.1 complete on 2026-10-13.
+- OpenRouter or an equivalent alternate chat-model provider was deliberately deferred to MK3.2.
+- MK3.2 must keep chat-model credentials separate from the pinned OpenAI embedding credential. Do not change `text-embedding-3-small` without deliberately rebuilding all stored and query embeddings in the same vector space.
+
+### Next planned step
+
+Begin MK3.2 by evaluating OpenRouter or an equivalent chat-model provider without changing MK3.1's embedding model or its verified public web path.
